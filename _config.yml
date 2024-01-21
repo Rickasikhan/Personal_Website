@@ -17,10 +17,6 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
 url: https://rickasikhan.github.io # the base hostname & protocol for your site
 baseurl:
 last_updated: false # set to true if you want to display last updated in the footer
@@ -205,6 +201,7 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+    math_engine: mathjax
 
 # Includes & excludes
 include: ["_pages"]
