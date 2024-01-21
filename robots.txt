@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://rickasikhan.github.io/Rickasikhan_Website//sitemap.xml
+Sitemap: https://rickasikhan.github.io/sitemap.xml
