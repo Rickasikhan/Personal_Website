@@ -12,7 +12,7 @@ Unreal Engine's strength lies in its real-time capabilities and gaming-focused f
 
 In summary, while Maya and Blender have a strong foundation in animation, Unreal Engine's versatility allows it to bridge the gap between game development and cinematic production, providing a compelling option for projects like Space Marine 2 that demand both cinematic quality and interactive elements.
 
-![Alt Text](Rickasikhan_Website/assets/img/SpaceMarine.jpg){:width="800" height="600"}
+![Alt Text](/assets/img/SpaceMarine.jpg){:width="800" height="600"}
 
 this formula is constantly used by animators to create fluid animations.
 $$ lerp(a,b,t)=a+(b−a)⋅t $$
