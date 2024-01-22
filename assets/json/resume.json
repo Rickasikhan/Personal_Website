@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Kasra Khalaj",
-    "label": "Student", "Animator"
+    "label": ["Student", "Animator"]
     "image": "",
     "email": "kasrakhalaj44@gmail.com",
     "phone": "(98) 919-237-20-53",
@@ -27,11 +27,11 @@
     {
       "institution": "Iran university of science and technology, Tehran, Iran",
       "location": "Tehran, Iran",
-      "url": "nemidunammitunambezaramyanaPASiust.ac.ir",
+      "url": "https://nemidunammitunambezaramyanaPASiust.ac.ir",
       "area": "Software Development",
       "studyType": "Bachlors",
       "startDate": "2022-01-01",
-      "endDate": "Still Studying",
+      "endDate": "2024-12-31",
       "score": "Nemidunam",
       "courses": ["Mabani i guess :("]
     }
