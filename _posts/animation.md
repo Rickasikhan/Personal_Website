@@ -8,10 +8,7 @@ With the coming of Unreal Engine 5, Unreal Engine stands out for cinematic produ
 
 However, it's important to note that while Unreal Engine is primarily designed for games, Maya and Blender have traditionally been tailored for animation and 3D modeling. Maya and Blender excel in providing detailed control over character animation, intricate modeling, and complex simulations, making them preferred choices for many animation and film production pipelines.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/SpaceMarine.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
+![Alt Text](assets/img/SpaceMarine.jpg){:width="800" height="600"}
 
 
 Unreal Engine's strength lies in its real-time capabilities and gaming-focused features, making it exceptionally well-suited for creating interactive and immersive experiences. Its cinematic prowess extends beyond games, often chosen for pre-rendered and real-time cinematics due to its advanced rendering and visual effects capabilities.
