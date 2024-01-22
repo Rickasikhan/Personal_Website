@@ -54,7 +54,7 @@
       "startDate": "2022-01-01",
       "endDate": "2024-12-31",
       "score": "Nemidunam",
-      "courses": ["Mabani i guess :("]
+      "courses": "Mabaniiguess"
     }
   ],
   "awards": [
@@ -142,9 +142,7 @@
         "Maya 2024-2018",
         "Blender 3.0",
         "Substance Painter",
-        "ZBrush",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "ZBrush"
       ]
     }
   ],
@@ -168,7 +166,7 @@
         "Maya 2024-2018",
         "Blender 3.0",
         "Substance painter",
-        "texturing/UV editing",
+        "texturing/UV editing"
       ]
     }
   ],
