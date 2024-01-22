@@ -3,7 +3,7 @@ layout: page
 title: Latest Project
 tags: maya modelling Hardwork 
 description: this is my latest maya project
-img: /assets/img/OIP.jpg
+img: /assets/img/mayaa.jpg
 ---
 I modelled a disney character from a sheet which is always essential for modelling artisits to have. But this is only the begining of it, there is much to do like rigging and UV and texture editing which can be done better and faster when you work in a team.
 
