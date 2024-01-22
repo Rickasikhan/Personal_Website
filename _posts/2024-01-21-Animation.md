@@ -11,7 +11,8 @@ However, it's important to note that while Unreal Engine is primarily designed f
 Unreal Engine's strength lies in its real-time capabilities and gaming-focused features, making it exceptionally well-suited for creating interactive and immersive experiences. Its cinematic prowess extends beyond games, often chosen for pre-rendered and real-time cinematics due to its advanced rendering and visual effects capabilities.
 
 In summary, while Maya and Blender have a strong foundation in animation, Unreal Engine's versatility allows it to bridge the gap between game development and cinematic production, providing a compelling option for projects like Space Marine 2 that demand both cinematic quality and interactive elements.
-![Alt Text](/assets/img/test.jpg)
+
+![Alt Text](Rickasikhan_Website/assets/img/SpaceMarine.jpg){:width="800" height="600"}
 
 this formula is constantly used by animators to create fluid animations.
 $$ lerp(a,b,t)=a+(b−a)⋅t $$
