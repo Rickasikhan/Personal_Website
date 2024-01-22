@@ -1,81 +1,43 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: true
+title: Latest Project
+tags: maya modelling Hardwork 
+description: this is my latest maya project
+img: /assets/img/OIP.jpg
 ---
+I modelled a disney character from a sheet which is always essential for modelling artisits to have. But this is only the begining of it, there is much to do like rigging and UV and texture editing which can be done better and faster when you work in a team.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+![Alt Text](/assets/img/EgyptionDisney.jpg){:width="400" height="300"}
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+here's all the packages used for the rendering part:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+{% highlight mel %}
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+// File read in  3.1 seconds.
+commandPort -securityWarning -name commandportDefault;
+onSetCurrentLayout "Rigging";
+updateRendererUI;
+// Bifrost: Pre-loaded mayaUsdPlugin to access proper Maya USD libraries.
+// Loading Bifrost version 2.7.0.1-202303200742-06aa76e
+// Bifrost: Loading library: Amino, from: Autodesk.
+// Bifrost: Loading library: AminoMayaTranslation, from: Autodesk.
+// Bifrost: Loading library: bif, from: Autodesk.
+// Bifrost: Loading library: bifrostObjectMayaTranslations, from: Autodesk.
+// Bifrost: Loading library: geometries, from: Autodesk.
+// Bifrost: Loading library: fluids, from: Autodesk.
+// Bifrost: Loading library: particles, from: Autodesk.
+// Bifrost: Loading library: file, from: Autodesk.
+// Bifrost: Loading library: mpm, from: Autodesk.
+// Bifrost: Loading library: modeling, from: Autodesk.
+// Bifrost: Loading library: nucleus, from: Autodesk.
+// Bifrost: Loading library: simulation, from: Autodesk.
+// Bifrost: Loading library: riv_types, from: Autodesk.
+// Bifrost: Loading library: riv, from: Autodesk.
+// Bifrost: Loading library: scatter_pack, from: Autodesk.
+// Bifrost: Loading library: graphs, from: Autodesk.
+// Bifrost: Loading library: usd_pack, from: Autodesk.
+// Bifrost: Loading library: usdMayaTranslations, from: Autodesk.
+// AbcExport v1.0 using Alembic 1.8.3 (built Apr 19 2023 14:41:12)
+// AbcImport v1.0 using Alembic 1.8.3 (built Apr 19 2023 14:41:12)
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+{% endhighlight %}
