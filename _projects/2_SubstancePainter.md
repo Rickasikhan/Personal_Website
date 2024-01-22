@@ -11,5 +11,5 @@ img: /assets/img/Pt.jpg
 
 Here's the texturing part of the project, but it is not yet finished. It will be finished in the next two weeks.
 
-![Alt Text](/assets/img/subs.jpg){:width="600" height="600"}
+![Alt Text](/assets/img/subs.jpg){:width="800" height="600"}
 
